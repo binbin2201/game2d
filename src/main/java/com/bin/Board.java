@@ -1,7 +1,9 @@
 package com.bin;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
 public class Board extends JPanel implements ActionListener, KeyListener {
@@ -13,5 +15,24 @@ public class Board extends JPanel implements ActionListener, KeyListener {
     private static final long serialVersionUID = 490905409104883233L;
     private Timer timer;
     private Player player;
-    private ArrayList coins;
+
+    @Override
+    public void actionPerformed(ActionEvent actionEvent) {
+
+    }
+
+    @Override
+    public void keyTyped(KeyEvent keyEvent) {
+
+    }
+
+    @Override
+    public void keyPressed(KeyEvent keyEvent) {
+
+    }
+
+    @Override
+    public void keyReleased(KeyEvent keyEvent) {
+
+    }
 }
